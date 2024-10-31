@@ -1,0 +1,39 @@
+h1,p{
+   text-align:center;
+   /* color:aqua; */
+}
+.boxs{
+    display:flex;
+}
+.box{
+    /* text-align:center; */
+    height:100px;
+    width:100px;
+    margin:10px;
+    border:9px solid black;
+    border-radius:10%;
+    /* flex-direction:row; */
+    justify-content:space-around;
+}
+.red{
+    background:rgb(219, 40, 40);
+}
+.blue{
+    background:rgb(60, 60, 236);
+}
+.green{
+    background:rgb(38, 211, 38);
+}
+.yellow{
+    background:rgb(221, 235, 27);
+}
+.boxs{
+justify-content: center;
+
+}
+.flash{
+    background:white;
+}
+.userFlash{
+    background:rgb(120, 224, 120);
+}
