@@ -6,6 +6,7 @@ let btns=["yellow","red","blue","green"];
 let started=false;
 let level=0;
 let p=document.querySelector("p");
+let body=document.querySelector("body");
 // this is only demo
 // let btn=document.querySelector(".box");
 
@@ -54,6 +55,12 @@ function checkAns(idx){
       setTimeout(levelUp,1000);
     }
   }else{
+
+    body.classList.add("red");
+    setTimeout(function () {
+      body.classList.remove("red");
+      console.log("over game");
+    },250);
     p.innerHTML=`Game over!High Score is <b>${highScore}</b>.</br> Your score was <b>${level}</b> </br> Press any key to start.`;
     reset();
   }
