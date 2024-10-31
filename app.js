@@ -61,7 +61,7 @@ function checkAns(idx){
       body.classList.remove("red");
       console.log("over game");
     },250);
-    p.innerHTML=`Game over!High Score is <b>${highScore}</b>.</br> Your score was <b>${level}</b> </br> Press any key to start.`;
+    p.innerHTML=`Game over!High Score is <b>${highScore}</b>.</br> Your score was <b>${level}</b> </br> Press any Key to start.`;
     reset();
   }
 }
